@@ -1,0 +1,80 @@
+@import '@/layouts/variaveis.scss';
+
+.cont{
+  border: 0;
+  width: 100vw;
+  max-width: 100vw;
+  min-width: 100vw;
+  height: auto;
+  min-height: 100%;
+}
+
+.page {
+  background-color: #E5E5E5;
+  min-height: calc(100vh - $alturaHeader - $alturaFooter );
+  width: 100vw;
+  max-width: 100vw;
+  min-width: 100vw;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  // margin-bottom: 1px;
+}
+
+.content-block{
+  background-color: $background-color-component;
+  width: auto;
+  max-width: 100vw;
+  height: auto;
+  padding: 1rem;
+}
+
+.cards{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  h1{
+    text-align: center;
+    font-size: 19px;
+    margin-top:1rem;
+    margin-bottom:1rem;
+  }
+  img{
+    margin: 2rem;
+    width: 8rem;
+    height: 7rem;
+  }
+  .btn-ir{
+    background-color:$standad-moss;
+    width: 100%;
+    height: 2rem;
+    text-align: center;
+    color: $full-white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .c{
+    margin: 2rem;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(49, 49, 49, 0.27); 
+    box-shadow: 5px 5px 15px 5px rgba(49, 49, 49, 0.27);
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: auto;
+    
+
+  }
+  .card-one{
+    margin: 2rem;
+  }
+
+}
+
+
+

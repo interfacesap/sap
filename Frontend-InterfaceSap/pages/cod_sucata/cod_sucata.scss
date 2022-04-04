@@ -1,0 +1,41 @@
+@import '@/layouts/variaveis.scss';
+
+
+.cont{
+  border: 0;
+  width: 100vw;
+  max-width: 100vw;
+  min-width: 100vw;
+  height: auto;
+  min-height: 100%;
+} 
+
+.principal{
+  background-color: #E5E5E5;
+  top: $alturaHeader;
+  bottom: $alturaFooter;
+  display: flex;
+  min-height: calc(100vh - $alturaHeader - $alturaFooter );
+  width: 100vw;
+  max-width: 100vw;
+  min-width: 100vw;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.base{
+  background-color: $background-color-component;
+  width: auto;
+  height: auto;
+  min-width: 60%;
+  min-height: 60vh;
+  padding: 2rem;
+  max-width: 80%;
+}
+table, th, td {
+  // border:1px solid black;
+}
+table {
+  table-layout: fixed;
+}

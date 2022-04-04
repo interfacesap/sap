@@ -1,0 +1,62 @@
+@import "@/layouts/variaveis.scss"; 
+
+.cont{
+  border: 0;
+  width: 100vw;
+  max-width: 100vw;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+.principal{
+  min-height: calc(100vh - $alturaHeader - $alturaFooter );
+  height: auto;
+  background-color: #E5E5E5;
+  width: 100vw;
+  max-width: 100vw;
+  min-width: 100vw;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.base{
+  background-color: #fff;
+  width: 45%;
+  height: auto;
+  padding: 3%;
+  align-items: center;
+  border-radius: 3px;
+}
+
+h1{
+  font-weight: bold;
+  text-align: center;
+}
+
+.inputs{
+  padding: 0.7em 0.7em;
+  border-radius: 6px;
+  margin: 4px 0;
+  display: flex;
+  flex-direction: column;  
+  border: 2px solid #E5E5E5;
+  align-items: center;
+  margin-top: 5px;
+}
+
+button {
+ background: #D00000;
+ padding: 0.5em 0.5em;
+ border: none;
+ border-radius: 7px;
+ font-size: 17px;
+ color: white;
+ transition: all .5s ease-in-out;
+ margin-top: 10%;
+}
+
+button:hover {
+ animation: gradient 3s infinite;
+ transform: scale(1.05);
+}
